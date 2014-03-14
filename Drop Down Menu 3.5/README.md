@@ -1,6 +1,3 @@
-NOTE:  The UIDropDownMenu control is not supported by iOS 7 or later.
-
-
 Apple iOS Drop Down Menu control
 
 The UIDropDownMenu control is an iOS class designed to replicate the drop down menus found on other platforms and websites.  The control was designed to be easy to use and customizable and will adapt its layout depending on the device and position.  It can be attached to any UITextField or UIButton control.
