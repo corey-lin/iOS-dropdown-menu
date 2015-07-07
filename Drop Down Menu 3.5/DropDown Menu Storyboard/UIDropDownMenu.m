@@ -119,7 +119,7 @@ UIInterfaceOrientation orientation;
         if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
             // Device is an iPad
             
-            int screenheight =  screenheight = parentView.frame.size.height;
+            int screenheight = parentView.frame.size.height;
                  
             int tableheight = 0;
             int objectheight = 0;
@@ -167,8 +167,8 @@ UIInterfaceOrientation orientation;
             
             }
             
-            if (((tableOriginX + objectheight) + ([titleArray count] * rowHeight)) >= parentView.frame.size.height - rowHeight){
-                tableheight = screenheight - rowHeight - (tableOriginX + objectheight);
+            if (((tableOriginY + objectheight) + ([titleArray count] * rowHeight)) >= parentView.frame.size.height - rowHeight){
+                tableheight = screenheight - rowHeight - (tableOriginY + objectheight);
                 
                 // enable scrolling and bounce
                 self.dropdownTable.scrollEnabled = YES;
